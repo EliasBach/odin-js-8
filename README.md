@@ -1,2 +1,4 @@
-# odin-js-8
-The Odin Project - JS Course Ex8: HashMap
+# The Odin Project - Javascript Course Exercise 8
+## HashMap
+Description: This exercise asks to implemenet a HashMap, a common data structure in JavaScript, composed of data elements that are stored in various buckets. The bucket for each data element is determined via a hash function.
+
