@@ -164,7 +164,6 @@ const HashMap = (() => {
 
 // testing
 const test = HashMap() 
-
 test.set('apple', 'red')
 test.set('banana', 'yellow')
 test.set('carrot', 'orange')
@@ -178,14 +177,10 @@ test.set('jacket', 'blue')
 test.set('kite', 'pink')
 test.set('lion', 'golden')
 test.set('moon', 'silver')
-console.log(test.values())
-console.log(test.keys())
-
-console.log(`For the key: "apple" the value is: "${test.get('apple')}"`) // get a value with key
-test.remove('carrot') // remove a value with key
-console.log(test.buckets)
-
 console.log("keys:")
 console.log(test.keys()) // print keys
 console.log("values:")
 console.log(test.values()) // print values
+console.log(`For the key: "apple" the value is: "${test.get('apple')}"`) // get a value with key
+test.remove('carrot') // remove a value with key
+console.log(test.buckets)
